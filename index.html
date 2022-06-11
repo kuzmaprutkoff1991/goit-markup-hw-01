@@ -4,76 +4,95 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>hm-1</title>
-   </head>
-  <body>
-      <!-- head home -->
-      <header class="page-header">
-            <!-- navigation -->
-      <nav class="nav">
-        <a class="logo-site" href="#" lang="en">
-          <span style="color: blue;" class="logo-site">Web<span style="color: black">Studio</span>
+  </head>
+  <body class="body">
+    <!-- head home -->
+    <header class="page-header">
+      <!-- navigation -->
+      <!--webstudio-->
+      <section class="top_line">
+        <a class="logo_site" href="#" lang="en">
+          <span class="logo_web">Web</span>Studio
         </a>
-        <ul class="nav-list">
-          <li>
-            <a class="studio" href="#">Cтудия</a>
-          </li>
-          <li>
-            <a class="portfolio" href="#">Портфолио</a>
-          </li>
-          <li>
-            <a class="contact" href="#">Контакты</a>
-          </li>
-        </ul>
-    </nav>
-        <!-- contact-list <nav> -->
-        <ul class="contact-list">
-          <li class="link-email">
+        <nav class="navigation">
+          <!-- navigation menu-->
+          <ul class="nav_list">
+            <!--Cтудия-->
+            <li class="nav_list_item">
+              <a class="studio" href="#">Cтудия</a>
+            </li>
+            <!--Портфолио-->
+            <li class="nav_list_item">
+              <a class="portfolio" href="#">Портфолио</a>
+            </li>
+            <!--Контакты-->
+            <li class="nav_list_item">
+              <a class="contact" href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- contact-list <navigation> -->
+        <ul class="contact_list">
+          <!--link-email-->
+          <li class="link_email">
             <a href="info@example.com" target="_blank" rel="noopener noreferrer"
-              >info@example.com</a>
+              >info@example.com</a
+            >
           </li>
+          <!--link-tel-->
           <li class="link-tel">
             <a href="tel:380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
-          </header>
-          <!-- head end-->
-
-          <!-- Основний унікальний розділ -->
-    <main class="body-main">
-        <!-- Основний будівельний блок для розділів сторінки -->
-      <section class="service order">
-        <h1 class="header">Эффективные решения для вашего бизнеса</h1>
+      </section>
+      <section class="header_body">
+        <h1 class="title">Эффективные решения для вашего бизнеса</h1>
         <button type="button">Заказать услугу</button>
       </section>
-<!--Особенности "HOME"-->
+    </header>
+    <!-- Основний унікальний розділ -->
+    <main class="body-main">
+      <!-- Основний будівельний блок для розділів сторінки -->
+      <!--Особенности "HOME"-->
       <section class="feature">
-<!--feature1-->
-        <h3 class="section-titles">Внимание к деталям</h3>
-        <p class="text">
-          Идейные соображения, а также начало повседневной работы по
-          формированию позиции.
-        </p>
-<!--feature2-->
-        <h3 class="section-titles">Пунктуальность</h3>
-        <p class="text">
-          Задача организации, в особенности же рамки и место обучения кадров
-          влечет за собой.
-        </p>
-<!--feature3-->
-        <h3 class="section-titles">Планирование</h3>
-        <p class="text">
-          Равным образом консультация с широким активом в значительной степени
-          обуславливает.
-        </p>
-<!--feature4-->
-        <h3 class="section-titles">Современные технологии</h3>
-        <p class="text">
-          Значимость этих проблем настолько очевидна, что реализация плановых
-          заданий.
-        </p>
+        <ul class="feature">
+          <li class="feature">
+            <!--feature1-->
+            <h3 class="section-titles">Внимание к деталям</h3>
+            <p class="text">
+              Идейные соображения, а также начало повседневной работы по
+              формированию позиции.
+            </p>
+          </li>
+          <li class="feature">
+            <!--feature2-->
+            <h3 class="section-titles">Пунктуальность</h3>
+            <p class="text">
+              Задача организации, в особенности же рамки и место обучения кадров
+              влечет за собой.
+            </p>
+          </li>
+          <li class="feature">
+            <!--feature3-->
+            <h3 class="section-titles">Планирование</h3>
+            <p class="text">
+              Равным образом консультация с широким активом в значительной
+              степени обуславливает.
+            </p>
+          </li>
+          <li class="feature">
+            <!--feature4-->
+            <h3 class="section-titles">Современные технологии</h3>
+            <p class="text">
+              Значимость этих проблем настолько очевидна, что реализация
+              плановых заданий.
+            </p>
+          </li>
+        </ul>
       </section>
-<!--Особенности "END"-->
+      <!--Особенности "END"-->
       <section class="about">
         <h2 class="subtitle">Чем мы занимаемся</h2>
         <ul class="list">
@@ -116,7 +135,6 @@
               width="270"
               height="260"
             />
-
             <h4 class="name">Игорь Демьяненко</h4>
             <p class="job-title">Product Designer</p>
           </li>
@@ -127,7 +145,6 @@
               width="270"
               height="260"
             />
-
             <h4 class="name">Ольга Репина</h4>
             <p class="job-title">Frontend Developer</p>
           </li>
@@ -138,7 +155,6 @@
               width="270"
               height="260"
             />
-
             <h4 class="name">Николай Тарасов</h4>
             <p class="job-title">Marketing</p>
           </li>
@@ -149,14 +165,12 @@
               width="270"
               height="260"
             />
-
-            <h4 class="mane">Михаил Ермаков</h4>
+            <h4 class="name">Михаил Ермаков</h4>
             <p class="job-title">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
-
     <footer class="footer">
       <address class="address">
         <a class="logo" href="index.html" lang="en">

@@ -1,0 +1,66 @@
+.body {
+  position: absolute;
+  width: 1600px;
+  height: 2349px;
+  background: #ffffff;
+  border-bottom: 1px solid #ececec;
+}
+
+.page-header {
+  position: ; /* Positioning */
+  display: inline-flex; /* Box-model */
+  column-count: 3;
+  width: 1600px;
+  left: 150px;
+  height: 80px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: normal;
+}
+.top_line {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+}
+.logo_site{
+    color: blue;
+}
+ top line bg 
+.page-header{
+    position: absolute; 
+    display: inline-flex;
+    height: 80px;
+
+    
+    
+    
+
+}
+.service_order{
+    position: absolute;
+width: 1600px;
+height: 600px;
+left: 0px;
+top: 800px;
+    /* Эффективные решения для вашего бизнеса */
+
+/*
+position: absolute;
+width: 696px;
+height: 120px;
+left: 452px;
+top: 280px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+/* or 136% */
+/*
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+*/
